@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.collision.MultiCollisions">
+   <children>
+      <AnchorPane fx:id="box" layoutX="11.0" layoutY="14.0" maxHeight="277.0" maxWidth="565.0" minHeight="277.0" minWidth="565.0" prefHeight="277.0" prefWidth="565.0" AnchorPane.bottomAnchor="109.0" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="24.0" AnchorPane.topAnchor="14.0" />
+      <Button alignment="CENTER" layoutX="31.0" layoutY="326.0" mnemonicParsing="false" onAction="#createCircle" prefHeight="25.0" prefWidth="331.0" text="add balls" AnchorPane.bottomAnchor="49.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+   </children>
+</AnchorPane>
